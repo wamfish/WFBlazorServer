@@ -1,0 +1,52 @@
+﻿@using WFLib
+@using static WFLib.Global
+@using System.Diagnostics.CodeAnalysis;
+@inherits LayoutComponentBase
+
+
+<PageTitle>Wamfish.com</PageTitle>
+<div @attributes=@MainLayoutPageAttributes>
+    <main>
+        <div @attributes=@TopRowDivAttributes>
+            <WFMenu Width="180"/>
+            <WFUserBtn />
+        </div>
+        @if(UseErrorBoundary)
+        {
+            <ErrorBoundary @ref="@errorBoundary">
+                <article @attributes=@MainLayoutBodyAttributes>
+                    @Body
+                </article>
+            </ErrorBoundary>
+        }
+        else
+        {
+            <article @attributes=@MainLayoutBodyAttributes>
+                @Body
+            </article>
+        }
+    </main>
+</div>
+
+
+@code {
+    [CascadingParameter]
+    public WFAppState AppState { get; set; } = default!;
+    // The following dependency prevents HeadOutlet from getting trimmed away
+    [DynamicDependency(DynamicallyAccessedMemberTypes.All, typeof(HeadOutlet))]
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (firstRender)
+        {
+        }
+    }
+    bool UseErrorBoundary = false;
+    private ErrorBoundary errorBoundary;
+    protected override void OnParametersSet()
+    {
+        if (errorBoundary != null)
+            errorBoundary.Recover();
+    }
+    
+    
+}

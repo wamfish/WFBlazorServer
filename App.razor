@@ -1,0 +1,29 @@
+﻿
+<WFAppState @ref=@appState>
+<Router AppAssembly="@typeof(App).Assembly"
+    AdditionalAssemblies="new[] { typeof(UserLoginService).Assembly}">
+    <Found Context="routeData">
+        @if(!@appState.IsValidRoute(routeData.PageType.Name))
+        {
+            <PageTitle>Not found</PageTitle>
+            <LayoutView Layout="@typeof(MainLayout)">
+                <p role="alert">Sorry, there's nothing at this address.</p>
+            </LayoutView>
+        }
+        else
+        {
+            <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+            <FocusOnNavigate RouteData="@routeData" Selector="h1" />
+        }
+    </Found>
+    <NotFound>
+        <PageTitle>Not found</PageTitle>
+        <LayoutView Layout="@typeof(MainLayout)">
+            <p role="alert">Sorry, there's nothing at this address.</p>
+        </LayoutView>
+    </NotFound>
+</Router>
+</WFAppState>
+@code{
+    WFAppState appState;
+}

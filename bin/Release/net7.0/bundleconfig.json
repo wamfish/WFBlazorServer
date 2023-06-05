@@ -1,0 +1,30 @@
+[
+  {
+    "outputFileName": "wwwroot/wfjs.min.js",
+    "inputFiles": [
+      "wfjs/game.js",
+      "wfjs/main.js",
+      "wfjs/mapForm.js",
+      "wfjs/uploadForm.js",
+      "wfjs/util.js",
+      "wfjs/videoForm.js",
+      "wfjs/webSocket.js",
+      "wfjs/wfjs.js",
+      "wfjs/window.js"
+    ]
+  },
+  {
+    "outputFileName": "wfjs/bundle.js",
+    "inputFiles": [
+      "wfjs/game.js",
+      "wfjs/main.js",
+      "wfjs/mapForm.js",
+      "wfjs/uploadForm.js",
+      "wfjs/util.js",
+      "wfjs/videoForm.js",
+      "wfjs/webSocket.js",
+      "wfjs/wfjs.js",
+      "wfjs/window.js"
+    ]
+  }
+]

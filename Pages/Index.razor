@@ -1,0 +1,39 @@
+﻿@page "/"
+@implements IDisposable
+<PageTitle>Home</PageTitle>
+<div style="width: 100%; height: 100%">
+    @foreach(var b in recs)
+    {
+        <div class="container px-4 text-center bubblegumsans">
+            <h2>@b.Title</h2>
+            <p>@((MarkupString)FixHtml(b.Html))</p>
+        </div>
+    }
+</div>
+@code 
+{
+    [CascadingParameter] public WFAppState AppState { get; set; }
+    BlogEditCtx ctx;
+    DSList<Blog> recs;
+
+    string clickTheFish = "<img onclick=\"doClickById('MenuBtn')\" src='images/ClickTheFish.svg' alt='Click The Fish' style='width: 256px;' />";
+
+    string FixHtml(string html)
+    {
+        var result = html.Replace("$ClickTheFish$",clickTheFish);
+        return result;
+    }
+    protected override void OnInitialized()
+    {
+        using var filters = FilterList.Rent();
+        filters.Add(Blog.FID.IsPublished, "true");
+        ctx = BlogEditCtx.Rent(AppState);
+        ctx.ShowAllRegularFields();
+        recs = ctx.DataProvider.Read(0, 10, filters);
+    }
+    public void Dispose()
+    {
+        ctx.Dispose();
+        recs.Dispose();
+    }
+}

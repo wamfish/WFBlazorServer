@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="scripts\installservice.sh" />
+    <None Remove="scripts\publish.sh" />
+    <None Remove="scripts\runserver.bat" />
+    <None Remove="scripts\runserver.sh" />
+    <None Remove="scripts\Wampage.service" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="scripts\installservice.sh">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="scripts\publish.sh">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="scripts\runserver.bat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="scripts\runserver.sh">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="scripts\Wampage.service">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\WFBlazorLib\WFBlazorLib.csproj" />
+    <ProjectReference Include="..\WFLib\WFLib.csproj" />
+  </ItemGroup>
+</Project>

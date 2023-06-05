@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\WFBlazorServer\Publish</_PublishTargetUrl>
+    <History>True|2023-04-24T05:26:45.6941985Z;True|2023-04-23T21:24:03.6560267-07:00;True|2023-04-23T20:15:37.2438766-07:00;True|2023-04-23T19:58:10.8986960-07:00;True|2023-04-23T19:52:53.8245982-07:00;True|2023-04-23T14:08:13.8105758-07:00;True|2023-04-23T14:00:00.9083012-07:00;True|2023-04-23T08:10:29.1128801-07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
