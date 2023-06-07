@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IInRa6npZ5BF25VureTIGrfhySvcZ7b75h2Rdk01XfI=",
+  "Hash": "Q7zUSI4DdN+Lp5EgfbfAZTLFbRigIhQptbG8KGb24Xc=",
   "Source": "WFBlazorServer",
   "BasePath": "_content/WFBlazorServer",
   "Mode": "Default",
@@ -189,6 +189,23 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css.map"
     },
     {
+      "Identity": "C:\\prog\\Wamfish\\WFBlazorLib\\wwwroot\\css\\prism.css",
+      "SourceId": "WFBlazorLib",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\prog\\Wamfish\\WFBlazorLib\\wwwroot\\",
+      "BasePath": "_content/WFBlazorLib",
+      "RelativePath": "css/prism.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\prism.css"
+    },
+    {
       "Identity": "C:\\prog\\Wamfish\\WFBlazorLib\\wwwroot\\css\\styles.css",
       "SourceId": "WFBlazorLib",
       "SourceType": "Project",
@@ -289,6 +306,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icons\\closeDark.svg"
+    },
+    {
+      "Identity": "C:\\prog\\Wamfish\\WFBlazorLib\\wwwroot\\icons\\IconWithText.jpg",
+      "SourceId": "WFBlazorLib",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\prog\\Wamfish\\WFBlazorLib\\wwwroot\\",
+      "BasePath": "_content/WFBlazorLib",
+      "RelativePath": "icons/IconWithText.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\IconWithText.jpg"
     },
     {
       "Identity": "C:\\prog\\Wamfish\\WFBlazorLib\\wwwroot\\icons\\IconWithText.svg",
@@ -425,6 +459,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Identity": "C:\\prog\\Wamfish\\WFBlazorLib\\wwwroot\\js\\prism.js",
+      "SourceId": "WFBlazorLib",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\prog\\Wamfish\\WFBlazorLib\\wwwroot\\",
+      "BasePath": "_content/WFBlazorLib",
+      "RelativePath": "js/prism.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\prism.js"
     },
     {
       "Identity": "C:\\prog\\Wamfish\\WFBlazorLib\\wwwroot\\js\\quill-blot-formatter.min.js",
