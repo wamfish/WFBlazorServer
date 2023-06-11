@@ -7,11 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="scripts\caddy\Caddyfile" />
     <None Remove="scripts\installservice.sh" />
     <None Remove="scripts\publish.sh" />
     <None Remove="scripts\runserver.bat" />
     <None Remove="scripts\runserver.sh" />
-    <None Remove="scripts\Wampage.service" />
+    <None Remove="scripts\WFBlazorServer.service" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="scripts\caddy\Caddyfile">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
@@ -27,7 +34,7 @@
     <Content Include="scripts\runserver.sh">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="scripts\Wampage.service">
+    <Content Include="scripts\WFBlazorServer.service">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

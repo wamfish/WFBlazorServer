@@ -81,3 +81,5 @@ C:\prog\Wamfish\WFBlazorServer\obj\Debug\net7.0\WFBlazorServer.pdb
 C:\prog\Wamfish\WFBlazorServer\obj\Debug\net7.0\WFBlazorServer.genruntimeconfig.cache
 C:\prog\Wamfish\WFBlazorServer\obj\Debug\net7.0\ref\WFBlazorServer.dll
 C:\prog\Wamfish\WFBlazorServer\bin\Debug\net7.0\AngleSharp.dll
+C:\prog\Wamfish\WFBlazorServer\bin\Debug\net7.0\WFCodeGenLib.dll
+C:\prog\Wamfish\WFBlazorServer\bin\Debug\net7.0\WFCodeGenLib.pdb

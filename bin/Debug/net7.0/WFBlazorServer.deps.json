@@ -205,6 +205,7 @@
           }
         }
       },
+      "Microsoft.CodeAnalysis.Analyzers/3.3.4": {},
       "Microsoft.Extensions.DependencyInjection/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
@@ -527,6 +528,14 @@
           "WFBlazorLib.dll": {}
         }
       },
+      "WFCodeGenLib/1.0.0-rc3": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.Analyzers": "3.3.4"
+        },
+        "runtime": {
+          "WFCodeGenLib.dll": {}
+        }
+      },
       "WFLib/1.0.0": {
         "dependencies": {
           "Godot.SourceGenerators": "4.0.2",
@@ -538,7 +547,8 @@
           "SkiaSharp.Extended": "1.60.0",
           "SkiaSharp.NativeAssets.Linux": "2.88.3",
           "SkiaSharp.NativeAssets.Linux.NoDependencies": "2.88.3",
-          "Svg.Skia": "0.6.0-preview6"
+          "Svg.Skia": "0.6.0-preview6",
+          "WFCodeGenLib": "1.0.0-rc3"
         },
         "runtime": {
           "WFLib.dll": {}
@@ -677,6 +687,13 @@
       "sha512": "sha512-S+EJS5RwVfrgBEyYKvNfMVQPH8CNIRhIH5UkGKalwIcppiYpi6k8pv7GDqjLiKLVa06LY+kNftXfUM5PwW7z/w==",
       "path": "microsoft.aspnetcore.metadata/7.0.5",
       "hashPath": "microsoft.aspnetcore.metadata.7.0.5.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.Analyzers/3.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AxkxcPR+rheX0SmvpLVIGLhOUXAKG56a64kV9VQZ4y9gR9ZmPXnqZvHJnmwLSwzrEP6junUF11vuc+aqo5r68g==",
+      "path": "microsoft.codeanalysis.analyzers/3.3.4",
+      "hashPath": "microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/7.0.0": {
       "type": "package",
@@ -952,6 +969,11 @@
       "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
     },
     "WFBlazorLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WFCodeGenLib/1.0.0-rc3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

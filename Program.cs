@@ -7,17 +7,26 @@ using WFBlazorLib.Pages;
 using WFBlazorServer;
 
 Directories.SetNearApp("Data");
-
-MenuData.AddMenuItem<WFBlazorServer.Pages.Index>("Home", true );
-MenuData.AddMenuItem<WFBlogEditor>("Blog");
-MenuData.AddMenuItem<WFTestRecordGridPage>("Test Record Grid");
-MenuData.AddMenuItem<WFUserPage>("User Edit");
-MenuData.AddMenuItem<WFStatsPage>("Server Stats");
-MenuData.AddMenuItem<WFYoutubePage>("Youtube Videos");
-MenuData.AddMenuItem<CSSPad>("CSS Pad");
-MenuData.AddMenuItem<LinksPage>("Edit Links");
-
-var configFile = BlazorServerData.Load("Default");
+bool isWebServer = false;
+var appConfig = GetAppConfig();
+if (isWebServer)
+{
+    MenuData.AddMenuItem<WFBlazorServer.Pages.Index>("Home", true);
+    MenuData.AddMenuItem<WFTestRecordGridPage>("Test Record Grid");
+    MenuData.AddMenuItem<WFStatsPage>("Server Stats");
+}
+else
+{
+    MenuData.AddMenuItem<WFBlazorServer.Pages.Index>("Home", true);
+    MenuData.AddMenuItem<WFBlogEditor>("Blog");
+    MenuData.AddMenuItem<WFTestRecordGridPage>("Test Record Grid");
+    MenuData.AddMenuItem<WFUserPage>("User Edit");
+    MenuData.AddMenuItem<WFStatsPage>("Server Stats");
+    MenuData.AddMenuItem<CSSPad>("CSS Pad");
+    MenuData.AddMenuItem<LinksPage>("Edit Links");
+    MenuData.AddMenuItem<ChannelPage>("Edit Channels");
+    MenuData.AddMenuItem<UtilsPage>("Utils");
+}
 
 WebApplicationBuilder builder;
 builder = WebApplication.CreateBuilder(args);

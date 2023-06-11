@@ -89,6 +89,10 @@
       "PackagePath": "staticwebassets\\icons\\restoreDark.svg"
     },
     {
+      "Id": "C:\\prog\\Wamfish\\WFBlazorServer\\wwwroot\\images\\ClickTheFish.svg",
+      "PackagePath": "staticwebassets\\images\\ClickTheFish.svg"
+    },
+    {
       "Id": "C:\\prog\\Wamfish\\WFBlazorServer\\wwwroot\\images\\wamfish.svg",
       "PackagePath": "staticwebassets\\images\\wamfish.svg"
     },

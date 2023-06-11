@@ -7,7 +7,6 @@ C:\prog\Wamfish\WFBlazorServer\bin\Release\net7.0\scripts\installservice.sh
 C:\prog\Wamfish\WFBlazorServer\bin\Release\net7.0\scripts\publish.sh
 C:\prog\Wamfish\WFBlazorServer\bin\Release\net7.0\scripts\runserver.bat
 C:\prog\Wamfish\WFBlazorServer\bin\Release\net7.0\scripts\runserver.sh
-C:\prog\Wamfish\WFBlazorServer\bin\Release\net7.0\scripts\Wampage.service
 C:\prog\Wamfish\WFBlazorServer\bin\Release\net7.0\WFBlazorServer.staticwebassets.runtime.json
 C:\prog\Wamfish\WFBlazorServer\bin\Release\net7.0\WFBlazorServer.exe
 C:\prog\Wamfish\WFBlazorServer\bin\Release\net7.0\WFBlazorServer.deps.json
@@ -80,4 +79,8 @@ C:\prog\Wamfish\WFBlazorServer\obj\Release\net7.0\refint\WFBlazorServer.dll
 C:\prog\Wamfish\WFBlazorServer\obj\Release\net7.0\WFBlazorServer.pdb
 C:\prog\Wamfish\WFBlazorServer\obj\Release\net7.0\WFBlazorServer.genruntimeconfig.cache
 C:\prog\Wamfish\WFBlazorServer\obj\Release\net7.0\ref\WFBlazorServer.dll
-C:\prog\Wamfish\WFBlazorServer\bin\Release\net7.0\Blazored.TextEditor.dll
+C:\prog\Wamfish\WFBlazorServer\bin\Release\net7.0\AngleSharp.dll
+C:\prog\Wamfish\WFBlazorServer\bin\Release\net7.0\WFCodeGenLib.dll
+C:\prog\Wamfish\WFBlazorServer\bin\Release\net7.0\WFCodeGenLib.pdb
+C:\prog\Wamfish\WFBlazorServer\bin\Release\net7.0\scripts\WFBlazorServer.service
+C:\prog\Wamfish\WFBlazorServer\bin\Release\net7.0\scripts\caddy\Caddyfile

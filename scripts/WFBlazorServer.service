@@ -1,0 +1,15 @@
+[Unit]
+Description=WFBlazorServer Service
+After=network-online.target
+Wants=network-online.target
+[Service]
+Type=simple
+User=roscoe
+Group=roscoe
+WorkingDirectory=/home/roscoe/WebServer
+ExecStart=/bin/bash /home/roscoe/WebServer/scripts/runserver.sh
+Restart=on-failure
+RestartSec=5s
+[Install]
+WantedBy=multi-user.target
+

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4YMgQHzvD2d8KoYDkVFuu5Z5LetBiDExS8/Q0m4opyWiBbv0wEp87IF1ZB7kbRQ/O2qPUYZuJLHOBdwLQzLHyA==",
+  "dgSpecHash": "HpGp4F57HZXDEC9VRgdIIRCscyLj9Wo1FFUdZlcW1cpTrlYZezLoVB5BXIglLSXtfG4wH2zH0616DqWKF+XXlQ==",
   "success": true,
   "projectFilePath": "C:\\prog\\Wamfish\\WFBlazorServer\\WFBlazorServer.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\jrhtc\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.4\\microsoft.aspnetcore.cryptography.internal.7.0.4.nupkg.sha512",
     "C:\\Users\\jrhtc\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.4\\microsoft.aspnetcore.cryptography.keyderivation.7.0.4.nupkg.sha512",
     "C:\\Users\\jrhtc\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.5\\microsoft.aspnetcore.metadata.7.0.5.nupkg.sha512",
+    "C:\\Users\\jrhtc\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.4\\microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
     "C:\\Users\\jrhtc\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\jrhtc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\jrhtc\\.nuget\\packages\\microsoft.extensions.identity.core\\7.0.4\\microsoft.extensions.identity.core.7.0.4.nupkg.sha512",

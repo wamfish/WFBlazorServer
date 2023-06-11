@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Q7zUSI4DdN+Lp5EgfbfAZTLFbRigIhQptbG8KGb24Xc=",
+  "Hash": "8c/bQprChA71csd4YQ/HTXPQEuf6LggaACC3t3gu7K0=",
   "Source": "WFBlazorServer",
   "BasePath": "_content/WFBlazorServer",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "WFBlazorLib",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
@@ -102,6 +102,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\_fonts.scss"
+    },
+    {
+      "Identity": "C:\\prog\\Wamfish\\WFBlazorLib\\wwwroot\\css\\_groupbox.scss",
+      "SourceId": "WFBlazorLib",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\prog\\Wamfish\\WFBlazorLib\\wwwroot\\",
+      "BasePath": "_content/WFBlazorLib",
+      "RelativePath": "css/_groupbox.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\_groupbox.scss"
     },
     {
       "Identity": "C:\\prog\\Wamfish\\WFBlazorLib\\wwwroot\\css\\_popup.scss",
