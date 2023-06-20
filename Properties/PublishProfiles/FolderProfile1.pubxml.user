@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\WFBlazorServer\PublishWindows</_PublishTargetUrl>
-    <History>True|2023-06-09T17:40:12.3139963Z;False|2023-06-09T10:37:12.8538644-07:00;True|2023-04-24T01:20:12.4631806-07:00;</History>
+    <History>True|2023-06-11T23:27:48.6673058Z;True|2023-06-09T10:40:12.3139963-07:00;False|2023-06-09T10:37:12.8538644-07:00;True|2023-04-24T01:20:12.4631806-07:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>
