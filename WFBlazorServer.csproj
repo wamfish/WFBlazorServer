@@ -40,7 +40,12 @@
   </ItemGroup>
   
   <ItemGroup>
+    <ProjectReference Include="..\MyLib\MyLib.csproj" />
     <ProjectReference Include="..\WFBlazorLib\WFBlazorLib.csproj" />
     <ProjectReference Include="..\WFLib\WFLib.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 </Project>

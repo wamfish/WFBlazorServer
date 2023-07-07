@@ -1,9 +1,10 @@
-﻿@using WFLib
-@using static WFLib.Global
+﻿@using Microsoft.AspNetCore.Components.Web;
+@using WFBlazorLib.Controls;
+@using WFLib
+@using static WFLib.Global;
+@using static WFBlazorLib.Global;
 @using System.Diagnostics.CodeAnalysis;
 @inherits LayoutComponentBase
-
-
 <PageTitle>Wamfish.com</PageTitle>
 <div @attributes=@MainLayoutPageAttributes>
     <main>
@@ -28,7 +29,6 @@
     </main>
 </div>
 
-
 @code {
     [CascadingParameter]
     public WFAppState AppState { get; set; } = default!;
@@ -46,7 +46,5 @@
     {
         if (errorBoundary != null)
             errorBoundary.Recover();
-    }
-    
-    
+    }  
 }

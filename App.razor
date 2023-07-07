@@ -1,7 +1,14 @@
-﻿
+﻿@using Microsoft.AspNetCore.Components.Routing
+@using Microsoft.AspNetCore.Components.Web
+@using MyLib
+@using WFBlazorLib.Controls;
+@using WFBlazorServer.Pages;
+@using static WFBlazorLib.Global;
+
 <WFAppState @ref=@appState>
 <Router AppAssembly="@typeof(App).Assembly"
-    AdditionalAssemblies="new[] { typeof(UserLoginService).Assembly}">
+    AdditionalAssemblies=@PageAssemblyList>
+    
     <Found Context="routeData">
         @if(!@appState.IsValidRoute(routeData.PageType.Name))
         {
