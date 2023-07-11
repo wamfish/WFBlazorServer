@@ -6,8 +6,8 @@ using WFBlazorLib;
 WebApplicationBuilder builder;
 builder = WebApplication.CreateBuilder(args);
 MyLib.Config.Server(builder);
-builder.Logging.ClearProviders();
-builder.Logging.AddWFLogger();
+//builder.Logging.ClearProviders();
+//builder.Logging.AddWFLogger();
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped<UserLoginService>();
@@ -23,6 +23,7 @@ if (!app.Environment.IsDevelopment())
     // Note: It seems important to understand how this can effect your server. I do not as of now, so I am leaving it commented out.
     //app.UseHsts();
 }
+
 // Cloudflare tunnel does https redirection for the local server
 // and the web server uses caddy for Let's Encrypt, and https redirection
 // This is not needed, but I am leaving it here for reference.
